@@ -1,0 +1,66 @@
+/* 02 - CSS Positioning Practice */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f5f5f5;
+    line-height: 1.6;
+}
+
+.box {
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+}
+
+.static-box {
+    position: static;
+    background-color: #607D8B;
+}
+
+.relative-box {
+    position: relative;
+    background-color: #FF9800;
+    top: 20px;
+    left: 20px;
+    width: 80%;
+    height: 150px;
+}
+
+.absolute-box {
+    position: absolute;
+    background-color: #E91E63;
+    top: 10px;
+    right: 10px;
+    width: 220px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.fixed-box {
+    position: fixed;
+    background-color: #9C27B0;
+    top: 10px;
+    right: 10px;
+    width: 250px;
+    z-index: 1000;
+    font-size: 14px;
+}
+
+.sticky-container {
+    background: white;
+    border: 2px dashed #333;
+    margin-top: 80px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 0;
+    background-color: #009688;
+    z-index: 500;
+}
