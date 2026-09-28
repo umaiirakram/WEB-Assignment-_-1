@@ -1,13 +1,4 @@
-# Web Technologies Assignment - CSS Practice
-**Name:** Umair Akram
-**University:** University of Layyah - BSCS
-**GitHub:** umaiirakram
-**Deadline:** Before Thursday Lab
-
-## Assignment Overview
-Practice assigned by Sir for 3 main CSS topics.
-
-## Topics Covered
+# CSS Practice
 
 ### 01 - Flexbox (11 Points)
 - Flex Container, Flex Items
@@ -24,21 +15,3 @@ Practice assigned by Sir for 3 main CSS topics.
 - Pseudo-class (:first-child, :last-child, :hover, :nth-child), Pseudo-element (::before, ::after)
 
 ## Folder Structure
-```
-01-flexbox/
-  ├── index.html
-  └── style.css
-02-positioning/
-  ├── index.html
-  └── style.css
-03-selectors/
-  ├── index.html
-  └── style.css
-README.md
-```
-
-## How to Run
-Open any index.html file in browser.
-
-## Submission
-GitHub repository link to be submitted before Thursday Lab.
