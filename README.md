@@ -1,4 +1,4 @@
-# WEB Assignment # 1 - CSS Practice
+# WEB Assignment # 1 -
 
 ### Q1: Flexbox in Detail
 
