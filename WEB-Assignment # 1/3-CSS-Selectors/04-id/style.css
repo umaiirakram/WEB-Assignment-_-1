@@ -1,0 +1,27 @@
+body { font-family:'Segoe UI', Arial, sans-serif; padding:30px; background:#f8fafc; }
+
+#header {
+    background:#1e293b;
+    color:white;
+    padding:15px;
+    border-radius:6px;
+    margin:10px 0;
+}
+
+#main {
+    background:#e0f2fe;
+    color:#0c4a6e;
+    padding:20px;
+    border:2px solid #0ea5e9;
+    border-radius:6px;
+    margin:10px 0;
+}
+
+#footer {
+    background:#334155;
+    color:#e2e8f0;
+    padding:10px;
+    text-align:center;
+    border-radius:6px;
+    margin:10px 0;
+}

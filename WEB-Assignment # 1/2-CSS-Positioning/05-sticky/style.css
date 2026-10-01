@@ -1,0 +1,7 @@
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:'Segoe UI', Arial, sans-serif; padding:30px; background:#f8fafc; }
+.container { background:#e2e8f0; border:2px solid #334155; border-radius:8px; height:300px; overflow-y:scroll; margin-top:20px; }
+.header { padding:15px; color:white; font-weight:bold; }
+.sticky { position:sticky; top:0; background:#10b981; z-index:10; }
+.content { padding:20px; height:600px; }
+.spacer { background:#f59e0b; padding:20px; margin-top:20px; border-radius:6px; color:white; }

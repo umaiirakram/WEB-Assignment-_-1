@@ -1,0 +1,11 @@
+body { font-family:'Segoe UI', Arial, sans-serif; padding:30px; background:#f8fafc; }
+
+h2 { background:#1e293b; color:white; padding:10px; border-radius:6px; }
+p { background:#e2e8f0; padding:10px; margin:5px 0; border-radius:4px; }
+
+/* General sibling - ALL following siblings */
+h2 ~ p {
+    background:#8b5cf6;
+    color:white;
+    border-left:4px solid #4c1d95;
+}

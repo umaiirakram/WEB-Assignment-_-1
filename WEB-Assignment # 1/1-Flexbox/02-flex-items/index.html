@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 - Flex Items</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Flex Items</h1>
+    <p><strong>Definition:</strong> Direct children of flex container are flex items. Only direct children, nested elements are NOT flex items.</p>
+    <div class="container">
+        <div class="box">Item 1 (Flex Item)</div>
+        <div class="box">Item 2 (Flex Item)</div>
+        <div class="box">
+            Item 3 (Flex Item)
+            <div class="nested">Nested DIV - NOT a flex item, still block inside</div>
+        </div>
+    </div>
+</body>
+</html>

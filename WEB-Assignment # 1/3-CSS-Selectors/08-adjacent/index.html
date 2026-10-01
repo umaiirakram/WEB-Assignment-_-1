@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 - Adjacent Sibling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Adjacent Sibling Selector (+)</h1>
+    <p>Selects the element IMMEDIATELY after another element. Same parent. Syntax: <code>h2 + p { }</code></p>
+
+    <h2>Heading H2</h2>
+    <p>First p after H2 - SELECTED by h2 + p</p>
+    <p>Second p after H2 - NOT selected (only immediate next)</p>
+
+    <div class="box"></div>
+    <p>P after div.box - SELECTED by div + p</p>
+</body>
+</html>

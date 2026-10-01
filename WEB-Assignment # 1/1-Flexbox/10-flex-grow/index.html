@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 - flex-grow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>flex-grow</h1>
+    <p>Defines ability to grow and fill extra space. Default is 0 (don't grow).</p>
+    <p>If container 600px, 3 boxes 100px each = 300px used, 300px free. Box 2 with <code>flex-grow:1</code> takes all 300px extra.</p>
+    <div class="container">
+        <div class="box">Box 1 (100px)</div>
+        <div class="box grow">Box 2 flex-grow:1 (Takes free space)</div>
+        <div class="box">Box 3 (100px)</div>
+    </div>
+</body>
+</html>

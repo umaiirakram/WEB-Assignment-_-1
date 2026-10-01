@@ -1,0 +1,21 @@
+body { font-family:'Segoe UI', Arial, sans-serif; padding:30px; background:#f8fafc; }
+
+.parent { background:#e2e8f0; padding:20px; border:2px solid #334155; border-radius:8px; }
+
+/* Child: > means ONLY direct child */
+.parent > p {
+    background:#f59e0b;
+    color:white;
+    padding:10px;
+    border-radius:4px;
+    font-weight:bold;
+}
+
+/* For comparison - descendant would select both */
+section p {
+    background:#ef4444;
+    color:white;
+    padding:10px;
+    border-radius:4px;
+    margin-top:5px;
+}

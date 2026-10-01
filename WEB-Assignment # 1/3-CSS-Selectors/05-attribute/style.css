@@ -1,0 +1,16 @@
+body { font-family:'Segoe UI', Arial, sans-serif; padding:30px; background:#f8fafc; }
+
+input { display:block; padding:10px; margin:10px 0; width:250px; border-radius:4px; border:1px solid #94a3b8; }
+
+/* Exact match */
+input[type="text"] { background:#bfdbfe; border-color:#3b82f6; }
+input[type="password"] { background:#fecaca; border-color:#ef4444; }
+input[type="email"] { background:#d1fae5; border-color:#10b981; }
+
+/* Starts with ^ */
+a[href^="https"] { background:#10b981; color:white; padding:5px 10px; text-decoration:none; border-radius:4px; }
+a[href^="/"] { background:#f59e0b; color:white; padding:5px 10px; text-decoration:none; border-radius:4px; }
+/* Ends with $ */
+a[href$=".pdf"] { background:#ef4444; color:white; padding:5px 10px; text-decoration:none; border-radius:4px; }
+
+a { display:inline-block; margin:5px; }

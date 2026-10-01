@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11 - flex-shrink</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>flex-shrink</h1>
+    <p>Controls shrinking when container is small. Default 1 = can shrink. 0 = cannot shrink.</p>
+    <p>Container 400px, 3 boxes 200px each = 600px needed. Overflow 200px. Box with <code>flex-shrink:0</code> stays 200px, others shrink.</p>
+    <div class="container">
+        <div class="box">Box 1 shrink</div>
+        <div class="box no-shrink">Box 2 NO SHRINK (200px)</div>
+        <div class="box">Box 3 shrink</div>
+    </div>
+</body>
+</html>

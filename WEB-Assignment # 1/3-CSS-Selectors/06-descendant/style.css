@@ -1,0 +1,12 @@
+body { font-family:'Segoe UI', Arial, sans-serif; padding:30px; background:#f8fafc; }
+
+.parent { background:#e2e8f0; padding:20px; border:2px solid #334155; border-radius:8px; }
+
+/* Descendant: space means ANY depth inside */
+.parent p {
+    background:#60a5fa;
+    color:white;
+    padding:10px;
+    margin:5px 0;
+    border-radius:4px;
+}

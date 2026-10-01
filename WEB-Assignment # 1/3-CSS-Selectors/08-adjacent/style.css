@@ -1,0 +1,19 @@
+body { font-family:'Segoe UI', Arial, sans-serif; padding:30px; background:#f8fafc; }
+
+h2 { background:#1e293b; color:white; padding:10px; border-radius:6px; }
+p { background:#e2e8f0; padding:10px; margin:5px 0; border-radius:4px; }
+
+/* Adjacent sibling - immediately after */
+h2 + p {
+    background:#10b981;
+    color:white;
+    font-weight:bold;
+    border-left:4px solid #065f46;
+}
+
+.box { height:40px; background:#94a3b8; border-radius:6px; margin:20px 0 0 0; }
+.box + p {
+    background:#f59e0b;
+    color:white;
+    font-weight:bold;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2 - position absolute</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS Positioning - absolute</h1>
+    <p>Removed from normal flow. Positioned <strong>relative to nearest positioned ancestor</strong> (relative, absolute, fixed, sticky). If no ancestor, then relative to viewport (body).</p>
+    <p>Parent must have <code>position: relative</code> to contain absolute child.</p>
+    
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box absolute">Box 2 - absolute; top:0; right:0;</div>
+        <div class="box">Box 3 - Box 2 is removed, so Box 3 takes its place</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+/* Universal selector - selects everything */
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #334155;
+    border: 1px dashed #94a3b8;
+}
+
+body { padding:30px; background:#f8fafc; }
+h1 { margin-bottom:20px; }

@@ -1,0 +1,5 @@
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:'Segoe UI', Arial, sans-serif; padding:30px; background:#f8fafc; }
+.fixed-box { position:fixed; top:10px; right:10px; background:#ef4444; color:white; padding:15px 25px; border-radius:6px; z-index:100; }
+.content { background:#e2e8f0; padding:20px; border:2px solid #334155; border-radius:8px; margin-top:20px; }
+.tall { height:500px; background:#cbd5e1; margin:15px 0; padding:20px; border-radius:6px; }

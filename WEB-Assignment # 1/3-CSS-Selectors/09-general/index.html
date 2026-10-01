@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 - General Sibling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>General Sibling Selector (~)</h1>
+    <p>Selects ALL siblings AFTER an element (same parent). Syntax: <code>h2 ~ p { }</code></p>
+
+    <h2>Heading H2</h2>
+    <p>First p after H2 - SELECTED by h2 ~ p</p>
+    <p>Second p after H2 - ALSO SELECTED (unlike + which only selects first)</p>
+    <div>Div after H2 - Not p, so not selected</div>
+    <p>Third p after H2 - ALSO SELECTED (all following p)</p>
+
+    <p>P before H2 in code - Not selected (must be after)</p>
+</body>
+</html>

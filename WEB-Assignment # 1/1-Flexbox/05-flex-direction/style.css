@@ -1,0 +1,5 @@
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:'Segoe UI', Arial, sans-serif; padding:30px; background:#f8fafc; }
+h3 { margin:15px 0; color:#334155; }
+.container { display:flex; flex-direction:column; background:#e2e8f0; padding:20px; border:2px solid #334155; border-radius:8px; }
+.box { background:#60a5fa; color:white; padding:15px; margin:5px; border-radius:6px; }

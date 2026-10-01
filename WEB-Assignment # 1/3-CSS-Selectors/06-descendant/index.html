@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 - Descendant Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Descendant Selector (space)</h1>
+    <p>Selects all nested elements inside ancestor at ANY depth. Syntax: <code>div p { }</code></p>
+
+    <div class="parent">
+        <p>Direct child p - Selected by div p</p>
+        <section>
+            <p>Nested deep p inside section - ALSO Selected by div p (any depth)</p>
+        </section>
+        <span>Span inside div - Not selected</span>
+    </div>
+
+    <p>Outside div - Not selected</p>
+</body>
+</html>
