@@ -1,36 +1,39 @@
-# WEB Assignment # 1 -
+# WEB Assignment # 1 - CSS Practice
 
-### 01 - Flexbox (Q1)
-- **flex-container** - Enables flex context with `display: flex`
-- **flex-direction** - Sets direction of items row / column
-- **flex-wrap** - Controls wrapping to next line
-- **justify-content** - Aligns items on main axis
-- **align-items** - Aligns items on cross axis
-- **align-content** - Aligns multiple lines on cross axis
-- **flex-item** - Child elements inside flex container
-- **order** - Changes visual order of item
-- **flex-grow** - Allows item to grow and take free space
-- **flex-shrink** - Allows item to shrink when needed
-- **flex-basis** - Defines initial size of item
+### Q1: Flexbox in Detail
 
-### 02 - Positioning (Q2)
-- **static** - Default position in normal flow
-- **relative** - Moves relative to its normal position
-- **absolute** - Positioned relative to nearest positioned parent
-- **fixed** - Fixed relative to viewport, stays on scroll
-- **sticky** - Switches from relative to fixed on scroll
+- **Flex container** - Parent element with `display: flex` that enables flex layout
+- **Flex items** - Direct children of flex container become flex items
+- **Main axis** - Primary axis defined by flex-direction (horizontal by default)
+- **Cross axis** - Perpendicular to main axis (vertical by default)
+- **flex-direction** - Sets main axis direction: row, column, row-reverse, column-reverse
+- **justify-content** - Aligns items on main axis: flex-start, center, space-between
+- **align-items** - Aligns items on cross axis: stretch, center, flex-end
+- **flex-wrap** - Controls wrapping: nowrap, wrap, wrap-reverse
+- **gap** - Creates space between flex items (row-gap and column-gap)
+- **flex-grow** - Defines ability to grow and take free space
+- **flex-shrink** - Defines ability to shrink when space is limited
 
-### 03 - Selectors (Q3)
-- **simple** - Select by tag, class, id
-- **combinator** - Defines relationship between selectors
-- **descendant** - Selects nested inside `div p`
-- **child** - Selects only direct child `div > p`
-- **adjacent** - Selects immediate next sibling `h2 + p`
-- **general** - Selects all following siblings `h2 ~ p`
-- **attribute** - Selects by attribute `[type="text"]`
-- **universal** - Selects all elements `*`
-- **group** - Groups multiple selectors `h1, h2`
-- **pseudo-class** - Selects special state `:hover`, `:nth-child()`
-- **pseudo-element** - Styles part of element `::before`, `::after`
+### Q2: CSS Positioning
 
-## Structure
+- **static** - Default position, follows normal document flow
+- **relative** - Positioned relative to its normal position
+- **absolute** - Positioned relative to nearest positioned ancestor
+- **fixed** - Positioned relative to viewport, stays fixed on scroll
+- **sticky** - Switches between relative and fixed based on scroll position
+
+Practical example for each method is provided in respective folders with output screenshot.
+
+### Q3: CSS Selectors
+
+- **Universal selector (*)** - Selects all elements on page
+- **Element selector (p)** - Selects by tag name
+- **Class selector (.class)** - Selects by class name
+- **ID selector (#id)** - Selects by id name
+- **Attribute selector ([type="text"])** - Selects by attribute value
+- **Descendant selector (div p)** - Selects all nested descendants
+- **Child selector (div > p)** - Selects only direct children
+- **Adjacent sibling selector (h2 + p)** - Selects immediate next sibling
+- **General sibling selector (h2 ~ p)** - Selects all following siblings
+- **Pseudo-class (:hover, :nth-child)** - Selects special state of element
+- **Pseudo-element (::before, ::after)** - Styles specific part of element
